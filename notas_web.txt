@@ -1,3 +1,9 @@
 
 Índice de etiquetas HTML5
 https://html5doctor.com
+
+
+
+
+Log de sesiones
+10-Jul: Por comenzar video 10 - Formularios HTML
