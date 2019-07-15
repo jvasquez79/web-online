@@ -2,7 +2,8 @@
 Índice de etiquetas HTML5
 https://html5doctor.com
 
-
+Servicio de fuentes
+https://fonts.google.com
 
 
 Log de sesiones
