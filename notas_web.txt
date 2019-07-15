@@ -8,3 +8,20 @@ https://fonts.google.com
 
 Log de sesiones
 10-Jul: Por comenzar video 10 - Formularios HTML
+
+font-family: 'Source Sans Pro', sans-serif;
+
+
+Acerca de fuentes
+font-weight
+Se usan múltiples de 100
+normal es shortcut para 400
+bold es shortcut para 600
+100 es la más angosta, 900 la más gruesta
+
+letter-spacing
+Espacios entre letras
+Se pone en negativo para apiñar textos
+
+text-transform
+Para cambiar mayúsculas, minúsculas, etc.
