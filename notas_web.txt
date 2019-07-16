@@ -8,6 +8,7 @@ https://fonts.google.com
 
 Log de sesiones
 10-Jul: Por comenzar video 10 - Formularios HTML
+16-Jul: Modelo de Caja
 
 font-family: 'Source Sans Pro', sans-serif;
 
@@ -25,3 +26,11 @@ Se pone en negativo para apiñar textos
 
 text-transform
 Para cambiar mayúsculas, minúsculas, etc.
+
+Márgenes
+margin collapsing
+Un elemento tiene 50 de margin, otro de 30, la diferencia entre los 2 no es 80 sino 50, el mayor de los dos
+
+Modelo de Caja
+box-sizing: border-box;
+Para tomar exactamente el ancho y alto especificado
