@@ -34,3 +34,18 @@ Un elemento tiene 50 de margin, otro de 30, la diferencia entre los 2 no es 80 s
 Modelo de Caja
 box-sizing: border-box;
 Para tomar exactamente el ancho y alto especificado
+
+FLexbox
+justify-content
+    space-between   (no pone espacio alrededor de los elementos extremos)
+    space-evenly    (pone espaciado idéntico entre elementos)
+    space-around
+align-items
+    flex-end        (justifica verticalmente hacia abajo)
+    flex-center     (centrea verticalmente)
+align-self
+    flex-start      (justifica un elemento hijo del flexbox al inicio)
+
+
+auto refresh plus
+Live Server         (plugin para Code, refresca el navegador al guardar cambios)
