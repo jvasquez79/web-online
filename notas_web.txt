@@ -9,6 +9,7 @@ https://fonts.google.com
 Log de sesiones
 10-Jul: Por comenzar video 10 - Formularios HTML
 16-Jul: Modelo de Caja
+19-Jul: 33 (7:29) - Estilos sección de eventos
 
 font-family: 'Source Sans Pro', sans-serif;
 
@@ -45,6 +46,8 @@ align-items
     flex-center     (centrea verticalmente)
 align-self
     flex-start      (justifica un elemento hijo del flexbox al inicio)
+
+object-fit: cover;  ("cropea" contenido en lugar de cambiar su tamaño)
 
 
 auto refresh plus
