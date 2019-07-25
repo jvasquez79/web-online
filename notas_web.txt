@@ -52,3 +52,14 @@ object-fit: cover;  ("cropea" contenido en lugar de cambiar su tamaño)
 
 auto refresh plus
 Live Server         (plugin para Code, refresca el navegador al guardar cambios)
+
+
+###############
+# RESPONSIVE
+###############
+
+mediaqueri.es
+
+Viewport
+Área de un website visible
+
