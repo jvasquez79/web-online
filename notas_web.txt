@@ -63,3 +63,16 @@ mediaqueri.es
 Viewport
 Área de un website visible
 
+Unidades de medida
+pixeles
+Porcentaje
+Relativo al ancestro anterior
+em
+Tamaño relativo a la fuente de objeto más cercano, incluído él mismo
+rem
+Relativa al tamaño de fuente especificada en el ancestro más lejano (html o body)
+vw / vh
+Unidad relativa porcentual con respecto al Viewport
+
+
+
