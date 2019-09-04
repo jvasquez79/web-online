@@ -26,6 +26,7 @@
             <div class="box"></div>
             <div class="box"></div>
         </div> -->
+        <i class="icon-menu burger-button" id="burger-menu"></i>
         <header class="header">
             <div class="container">
                 <figure class="logo">
@@ -40,14 +41,14 @@
                 </nav>
             </div>
         </header>
-<!--         <section class="hero">
+         <section class="hero">
             <div class="container">
                 <h1>
                     Hola! Soy <strong>Javier V&aacute;squez</strong><br>Desarrollador <strong>Javascript</strong> con <br> pasi&oacute;n por la <strong>ense&ntilde;anza</strong>
                 </h1>
                 <img class="hero-image" src="images/hero.jpg" alt="Imagen principal de la página" width="500" height="300">
             </div>
-        </section>-->
+        </section>
         <section id="portafolio" class="portfolio">
             <div class="container">
                 <h2>Portafolio (Proyectos Destacados)</h2>
@@ -80,6 +81,7 @@
         <div class="container">
             <h2 class="event-list-title">M&aacute;s sobre mi experiencia</h2>
         </div>
+        <!-- <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/Q0J4FLvEhtI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
         <section id="eventos" class="event-list">
             <div class="container">
                 <article class="event">
@@ -94,7 +96,8 @@
                 </article>
                 <article class="event">
                     <figure class="event-imageContainer">
-                        <img class="event-image" src="images/platzi-conf.jpg" alt="" width="500">
+                        <video src="videos/f8.mp4" width="1280" height="720"  class="html-video" controls></video>
+                        <!-- <img class="event-image" src="images/platzi-conf.jpg" alt="" width="500"> -->
                     </figure>
                     <div class="event-details">
                         <h3 class="event-title">PlatziConf M&eacute;xico 2018</h3>
@@ -150,5 +153,30 @@
                 </div>
             </div>
         </footer> 
+        <script>
+            const menu = document.querySelector(".menu");
+            const burgerButton = document.querySelector("#burger-menu");
+            const ipad = window.matchMedia("screen and (max-width: 767px)");
+            //console.log(ipad);
+            
+            ipad.addListener(validation);
+            
+            function hideShow() { 
+                if (menu.classList.contains("is-active"))
+                    menu.classList.remove("is-active");
+                else
+                    menu.classList.add("is-active");
+            }
+
+            function validation(event) {
+                //console.log(event.matches);
+                if (event.matches) {
+                    burgerButton.addEventListener("click", hideShow);
+                } else {
+                    burgerButton.removeEventListener("click", hideShow);
+                }
+            }
+            validation(ipad);
+        </script>
     </body>
 </html>

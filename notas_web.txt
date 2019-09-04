@@ -74,5 +74,17 @@ Relativa al tamaño de fuente especificada en el ancestro más lejano (html o bo
 vw / vh
 Unidad relativa porcentual con respecto al Viewport
 
+https://codepen.io
+Probar HTML, CSS y JS en vivo
+
+https://icomoon.io
+
+
+nodejs.org
+Para instalar Node.js
+
+static-server
+Módulo de Node.js para publicar un servidor Web con contenido estático
+
 
 
